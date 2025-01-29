@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="nav-bar">
+      <div class="logo">LOGO</div>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links">
+        <li><a href="#home" onclick="closeMenu()">Home</a></li>
+        <li><a href="#about" onclick="closeMenu()">About</a></li>
+        <li><a href="#services" onclick="closeMenu()">Services</a></li>
+        <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- hero section -->
+  <section id="about" id="home" class="hero fade-in">
+    <h1>I am Faizan Khan</h1>
+    <p>Professional Full Stack Developer.</p>
+    <button>Get Started</button>
+  </section>
+
+  <!-- services section or features -->
+  <section id="services" class="services fade-in">
+    <div class="service">
+      <h3>Responsive Website Design</h3>
+      <p>Creating visually appealing and mobile-friendly designs.</p>
+      <p>Using tools like HTML5, CSS3, JS, and frameworks like React</p>
+    </div>
+    <div class="service">
+      <h3>Custom Web Application Development</h3>
+      <p>End-to-end development of fully fuctional web apps</p>
+    </div>
+    <div class="service">
+      <h3>E-commerce Development</h3>
+      <p>Building online stores with platforms like Shopify, or custom solutions using MERN stack</p>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer id="contact">
+    <p>
+      &copy; 2025 MyWebsite | Follow us:
+      <a href="#" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+    </p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
